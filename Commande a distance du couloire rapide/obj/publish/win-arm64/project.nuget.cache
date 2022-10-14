@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "8LbzoHUddBihqU0+/fsRAi5BzINd7oIcNz3I5eyTtDfpNCY8yzy54g/wT34vaQcNDBXV8PUxk2VJHI53398jQg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\aicha\\Desktop\\Commande à distance\\GateMonitoring\\GateMonitoring.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Échec de la récupération des informations sur 'Microsoft.AspNetCore.App.Runtime.win-arm64' à partir de la source distante 'https://nuget.org/FindPackagesById()?id='Microsoft.AspNetCore.App.Runtime.win-arm64'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.App.Runtime.win-arm64"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Échec de la récupération des informations sur 'Microsoft.NETCore.App.Runtime.win-arm64' à partir de la source distante 'https://nuget.org/FindPackagesById()?id='Microsoft.NETCore.App.Runtime.win-arm64'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.NETCore.App.Runtime.win-arm64"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Échec de la récupération des informations sur 'Microsoft.WindowsDesktop.App.Runtime.win-arm64' à partir de la source distante 'https://nuget.org/FindPackagesById()?id='Microsoft.WindowsDesktop.App.Runtime.win-arm64'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.WindowsDesktop.App.Runtime.win-arm64"
+    }
+  ]
+}

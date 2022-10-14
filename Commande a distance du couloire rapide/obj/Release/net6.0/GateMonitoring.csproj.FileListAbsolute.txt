@@ -1,0 +1,15 @@
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\bin\Release\net6.0\GateMonitoring.exe
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\bin\Release\net6.0\GateMonitoring.deps.json
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\bin\Release\net6.0\GateMonitoring.runtimeconfig.json
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\bin\Release\net6.0\GateMonitoring.dll
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\bin\Release\net6.0\GateMonitoring.pdb
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\GateMonitoring.csproj.AssemblyReference.cache
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\GateMonitoring.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\GateMonitoring.AssemblyInfoInputs.cache
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\GateMonitoring.AssemblyInfo.cs
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\GateMonitoring.csproj.CoreCompileInputs.cache
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\GateMonitoring.dll
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\refint\GateMonitoring.dll
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\GateMonitoring.pdb
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\GateMonitoring.genruntimeconfig.cache
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\ref\GateMonitoring.dll

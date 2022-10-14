@@ -1,0 +1,5 @@
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\bin\Release\net6.0\publish\GateMonitoring.exe
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\bin\Release\net6.0\publish\GateMonitoring.dll
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\bin\Release\net6.0\publish\GateMonitoring.deps.json
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\bin\Release\net6.0\publish\GateMonitoring.runtimeconfig.json
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\bin\Release\net6.0\publish\GateMonitoring.pdb

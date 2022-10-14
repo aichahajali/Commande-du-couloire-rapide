@@ -1,0 +1,15 @@
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\bin\Release\net6.0\commande.exe
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\bin\Release\net6.0\commande.deps.json
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\bin\Release\net6.0\commande.runtimeconfig.json
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\bin\Release\net6.0\commande.dll
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\bin\Release\net6.0\commande.pdb
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\commande.csproj.AssemblyReference.cache
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\commande.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\commande.AssemblyInfoInputs.cache
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\commande.AssemblyInfo.cs
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\commande.csproj.CoreCompileInputs.cache
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\commande.dll
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\refint\commande.dll
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\commande.pdb
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\commande.genruntimeconfig.cache
+C:\Users\aicha\Desktop\Commande à distance\GateMonitoring\obj\Release\net6.0\ref\commande.dll

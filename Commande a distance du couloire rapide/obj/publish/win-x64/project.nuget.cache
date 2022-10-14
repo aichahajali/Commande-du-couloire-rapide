@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "8RUMl+5ocfECH+kM3ScKMCJPPK5wSiVjLVo+ngauf1KE9qjvxO4yosdM2Ju73OOUGgaTJjJXaHs6ErUXB+rvtw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\aicha\\Desktop\\Commande à distance\\GateMonitoring\\GateMonitoring.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package Microsoft.NETCore.App.Runtime.win-x64 introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Runtime.win-x64",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package Microsoft.WindowsDesktop.App.Runtime.win-x64 introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Package Microsoft.AspNetCore.App.Runtime.win-x64 introuvable. Aucun package associé à cet ID n'existe dans la ou les sources suivantes : Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Runtime.win-x64",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
