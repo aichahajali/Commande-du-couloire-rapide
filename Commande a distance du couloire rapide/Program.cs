@@ -50,52 +50,52 @@ class MyMonitor
             {
                 case ("01"):
                     Console.WriteLine("01 : Open Entry" + dt.ToString(" dd/MM/yyyy HH:mm tt"));
-                    byte[] openForEntry = { 0xAA, 0x00, 0x01, 0x02, 0x00, 0x1E, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x29 }; 
+                    byte[] openForEntry = { 0xAA, 0x00, 0x01, 0x02, 0x00, 0x1E, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x29 }; /* Data from the gate agreement*/
                     stream.Write(openForEntry, 0, openForEntry.Length); /* sending openForEntry data */
                     break;
                 case ("02"):
                     Console.WriteLine("02 : Open Exit" + dt.ToString(" dd/MM/yyyy HH:mm tt"));
-                    byte[] openForExit = { 0xAA, 0x00, 0x01, 0x02, 0x00, 0x1E, 0x08, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2C };
+                    byte[] openForExit = { 0xAA, 0x00, 0x01, 0x02, 0x00, 0x1E, 0x08, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2C }; /* Data from the gate agreement */
                     stream.Write(openForExit, 0, openForExit.Length); /* sending OpenForExit data */
                     break;
                 case ("03"):
                     Console.WriteLine("03 : Always Open Entry" + dt.ToString(" dd/MM/yyyy HH:mm tt"));
-                    byte[] alwaysOpenforEntry = { 0xAA, 0x00, 0x01, 0x02, 0x00, 0x1E, 0x08, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A };
+                    byte[] alwaysOpenforEntry = { 0xAA, 0x00, 0x01, 0x02, 0x00, 0x1E, 0x08, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2A }; /* Data from the gate agreement */
                     stream.Write(alwaysOpenforEntry, 0, alwaysOpenforEntry.Length); /* sending alwaysOpenForEntry data */
                     break;
                 case ("04"):
                     Console.WriteLine("04 : Always Open Exit" + dt.ToString(" dd/MM/yyyy HH:mm tt"));
-                    byte[] alwaysOpenforExit = { 0xAA, 0x00, 0x01, 0x02, 0x00, 0x1E, 0x08, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2D };
+                    byte[] alwaysOpenforExit = { 0xAA, 0x00, 0x01, 0x02, 0x00, 0x1E, 0x08, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2D };/* Data from the gate agreement */
                     stream.Write(alwaysOpenforExit, 0, alwaysOpenforExit.Length); /* sending alwaysOpenForExit data */
                     break;
                 case ("05"):
                     Console.WriteLine("05 : Close Entry" + dt.ToString(" dd/MM/yyyy HH:mm tt"));
-                    byte[] closeForEntry = { 0xAA, 0x00, 0x01, 0x02, 0x00, 0x1E, 0x08, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2B };
+                    byte[] closeForEntry = { 0xAA, 0x00, 0x01, 0x02, 0x00, 0x1E, 0x08, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2B };/* Data from the gate agreement */
                     stream.Write(closeForEntry, 0, closeForEntry.Length); /* sending closeForEntry data */
                     break;
                 case ("06"):
                     Console.WriteLine("06 : Close Exit" + dt.ToString(" dd/MM/yyyy HH:mm tt"));
-                    byte[] closeForExit = { 0xAA, 0x00, 0x01, 0x02, 0x00, 0x1E, 0x08, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2E };
+                    byte[] closeForExit = { 0xAA, 0x00, 0x01, 0x02, 0x00, 0x1E, 0x08, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2E };/* Data from the gate agreement */
                     stream.Write(closeForExit, 0, closeForExit.Length); /* sending closeForExit data */
                     break;
                 case ("07"):
                     Console.WriteLine("07 : Lock door" + dt.ToString(" dd/MM/yyyy HH:mm tt"));
-                    byte[] lockDoor = { 0xAA, 0x00, 0x01, 0x02, 0x05, 0x1E, 0x02, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x29 };
-                    stream.Write(lockDoor, 0, lockDoor.Length); /* sending closeForExit data */
+                    byte[] lockDoor = { 0xAA, 0x00, 0x01, 0x02, 0x05, 0x1E, 0x02, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x29 };/* Data from the gate agreement */
+                    stream.Write(lockDoor, 0, lockDoor.Length); /* sending lockDoor data */
                     break;
                 case ("08"):
                     Console.WriteLine("08 : Unlock door" + dt.ToString(" dd/MM/yyyy HH:mm tt"));
-                    byte[] unlockDoor = { 0xAA, 0x00, 0x01, 0x02, 0x05, 0x1E, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x28 };
+                    byte[] unlockDoor = { 0xAA, 0x00, 0x01, 0x02, 0x05, 0x1E, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x28 };/* Data from the gate agreement */
                     stream.Write(unlockDoor, 0, unlockDoor.Length); /* sending unlockDoor data */
                     break;
                 case ("09"):
                     Console.WriteLine("09 : External Alarm" + dt.ToString(" dd/MM/yyyy HH:mm tt"));
-                    byte[] externalAlarmOn = { 0xAA, 0x00, 0x01, 0x02, 0x00, 0x1E, 0x08, 0x02, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2C };
+                    byte[] externalAlarmOn = { 0xAA, 0x00, 0x01, 0x02, 0x00, 0x1E, 0x08, 0x02, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2C };/* Data from the gate agreement */
                     stream.Write(externalAlarmOn, 0, externalAlarmOn.Length); /* sending externalAlarmOn data */
                     break;
                 case ("10"):
                     Console.WriteLine("10 : Cancel External Alarm" + dt.ToString(" dd/MM/yyyy HH:mm tt"));
-                    byte[] externalAlarmOff = { 0xAA, 0x00, 0x01, 0x02, 0x00, 0x1E, 0x08, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2B };
+                    byte[] externalAlarmOff = { 0xAA, 0x00, 0x01, 0x02, 0x00, 0x1E, 0x08, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2B };/* Data from the gate agreement */
                     stream.Write(externalAlarmOff, 0, externalAlarmOff.Length); /* sending externalAlarmOff data */
                     break;
                 default:
@@ -121,12 +121,12 @@ class MyMonitor
     {
         Console.WriteLine("--------------------------Connect First-----------------------------------");
         Console.WriteLine("Enter port number :");
-        string Port = Console.ReadLine();
+        string Port = Console.ReadLine(); /* read port number from console */
         while (Port != "13000") /* RS485 to tcp ip converter configured Port= 13000 */
         {
             Console.WriteLine("--------------------------Connect First-----------------------------------");
             Console.WriteLine("Enter port number :");
-            Port = Console.ReadLine();
+            Port = Console.ReadLine(); /* read port number from console */
         }
         int _port = int.Parse(Port);
         var _ip = getIP();
